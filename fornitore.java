@@ -1,4 +1,3 @@
-import java.time.LocalDate;
 import java.util.Scanner;
 
 public class fornitore {
@@ -21,8 +20,9 @@ public class fornitore {
             byte catNum = sc.nextByte();
             CategoriaLista Categoria = CategoriaLista.values()[catNum];
 
-            System.out.println("P.iva:");
+            System.out.println("Piva:");
             String piva = sc.nextLine();
+            sc.nextLine();
 
             System.out.println("Luogo:");
             String Luogo = sc.nextLine();
@@ -53,7 +53,7 @@ public class fornitore {
 
             System.out.println("Nome del fornitore: " + nome);
             System.out.println("Categoria: " + Categoria);
-            System.out.println("P.iva: " + piva);
+            System.out.println("Piva:" + piva);
             System.out.println("Luogo': " + Luogo);
             System.out.println("Telefono: " + telefono);
 
